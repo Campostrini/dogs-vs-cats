@@ -1,0 +1,11 @@
+name: keras-to-onnx
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+ - python=3.11
+ - tf2onnx=1.16
+ - pip:
+   - tensorflow>=2.16,<2.17
+   - onnx>=1.16,<1.17
+   - onnxruntime>=1.17,<1.18

@@ -1,0 +1,11 @@
+name: dogs-vs-cats
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+ - python=3.11
+ - streamlit=1.34
+ - pillow=10.3
+ - numpy=1.26
+ - pip:
+   - onnxruntime>=1.17,<1.18
